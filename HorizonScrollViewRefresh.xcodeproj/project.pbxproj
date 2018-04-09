@@ -10,6 +10,7 @@
 		7E3B5ED9207B0EC00041A375 /* LeftHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5ED7207B0EC00041A375 /* LeftHeaderView.m */; };
 		7E3B5EDA207B0EC00041A375 /* CommonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5ED8207B0EC00041A375 /* CommonHeaderView.m */; };
 		7E3B5EDD207B12370041A375 /* RightHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5EDC207B12370041A375 /* RightHeaderView.m */; };
+		7E3B5EDF207B49D50041A375 /* qqw.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B5EDE207B49D50041A375 /* qqw.gif */; };
 		7E9D9BF6206B963000DE9FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */; };
 		7E9D9BF9206B963000DE9FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9BF8206B963000DE9FA7 /* ViewController.m */; };
 		7E9D9BFC206B963000DE9FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9BFA206B963000DE9FA7 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		7E3B5ED8207B0EC00041A375 /* CommonHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHeaderView.m; sourceTree = "<group>"; };
 		7E3B5EDB207B12370041A375 /* RightHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightHeaderView.h; sourceTree = "<group>"; };
 		7E3B5EDC207B12370041A375 /* RightHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightHeaderView.m; sourceTree = "<group>"; };
+		7E3B5EDE207B49D50041A375 /* qqw.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = qqw.gif; sourceTree = "<group>"; };
 		7E9D9BF1206B963000DE9FA7 /* HorizonScrollViewRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonScrollViewRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9D9BF4206B963000DE9FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */,
 				7E9D9BF7206B963000DE9FA7 /* ViewController.h */,
 				7E9D9BF8206B963000DE9FA7 /* ViewController.m */,
+				7E3B5EDE207B49D50041A375 /* qqw.gif */,
 				7E9D9C0A206B964500DE9FA7 /* HorizonScrollViewRefresh */,
 				7E9D9BFA206B963000DE9FA7 /* Main.storyboard */,
 				7E9D9BFD206B963000DE9FA7 /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3B5EDF207B49D50041A375 /* qqw.gif in Resources */,
 				7E9D9C01206B963000DE9FA7 /* LaunchScreen.storyboard in Resources */,
 				7E9D9BFE206B963000DE9FA7 /* Assets.xcassets in Resources */,
 				7E9D9BFC206B963000DE9FA7 /* Main.storyboard in Resources */,
