@@ -1,0 +1,2 @@
+# HorizonScrollViewRefresh
+scrollView横向刷新，左右刷新，感谢MJRefresh提供思路
