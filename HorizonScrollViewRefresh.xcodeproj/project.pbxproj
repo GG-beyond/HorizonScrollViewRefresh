@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3B5ED9207B0EC00041A375 /* LeftHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5ED7207B0EC00041A375 /* LeftHeaderView.m */; };
+		7E3B5EDA207B0EC00041A375 /* CommonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5ED8207B0EC00041A375 /* CommonHeaderView.m */; };
+		7E3B5EDD207B12370041A375 /* RightHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B5EDC207B12370041A375 /* RightHeaderView.m */; };
 		7E9D9BF6206B963000DE9FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */; };
 		7E9D9BF9206B963000DE9FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9BF8206B963000DE9FA7 /* ViewController.m */; };
 		7E9D9BFC206B963000DE9FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9BFA206B963000DE9FA7 /* Main.storyboard */; };
 		7E9D9BFE206B963000DE9FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9BFD206B963000DE9FA7 /* Assets.xcassets */; };
 		7E9D9C01206B963000DE9FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9BFF206B963000DE9FA7 /* LaunchScreen.storyboard */; };
 		7E9D9C04206B963000DE9FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9C03206B963000DE9FA7 /* main.m */; };
+		7E9D9C0D206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9C0C206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3B5ED5207B0EC00041A375 /* LeftHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftHeaderView.h; sourceTree = "<group>"; };
+		7E3B5ED6207B0EC00041A375 /* CommonHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeaderView.h; sourceTree = "<group>"; };
+		7E3B5ED7207B0EC00041A375 /* LeftHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftHeaderView.m; sourceTree = "<group>"; };
+		7E3B5ED8207B0EC00041A375 /* CommonHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHeaderView.m; sourceTree = "<group>"; };
+		7E3B5EDB207B12370041A375 /* RightHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightHeaderView.h; sourceTree = "<group>"; };
+		7E3B5EDC207B12370041A375 /* RightHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightHeaderView.m; sourceTree = "<group>"; };
 		7E9D9BF1206B963000DE9FA7 /* HorizonScrollViewRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonScrollViewRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9D9BF4206B963000DE9FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		7E9D9C00206B963000DE9FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E9D9C02206B963000DE9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9D9C03206B963000DE9FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E9D9C0B206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HorizonRefresh.h"; sourceTree = "<group>"; };
+		7E9D9C0C206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HorizonRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3B5ED3207B0E880041A375 /* LeftHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B5ED6207B0EC00041A375 /* CommonHeaderView.h */,
+				7E3B5ED8207B0EC00041A375 /* CommonHeaderView.m */,
+				7E3B5ED5207B0EC00041A375 /* LeftHeaderView.h */,
+				7E3B5ED7207B0EC00041A375 /* LeftHeaderView.m */,
+			);
+			path = LeftHeader;
+			sourceTree = "<group>";
+		};
+		7E3B5ED4207B0E980041A375 /* RightHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B5EDB207B12370041A375 /* RightHeaderView.h */,
+				7E3B5EDC207B12370041A375 /* RightHeaderView.m */,
+			);
+			path = RightHeader;
+			sourceTree = "<group>";
+		};
 		7E9D9BE8206B963000DE9FA7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +94,23 @@
 				7E9D9BF5206B963000DE9FA7 /* AppDelegate.m */,
 				7E9D9BF7206B963000DE9FA7 /* ViewController.h */,
 				7E9D9BF8206B963000DE9FA7 /* ViewController.m */,
+				7E9D9C0A206B964500DE9FA7 /* HorizonScrollViewRefresh */,
 				7E9D9BFA206B963000DE9FA7 /* Main.storyboard */,
 				7E9D9BFD206B963000DE9FA7 /* Assets.xcassets */,
 				7E9D9BFF206B963000DE9FA7 /* LaunchScreen.storyboard */,
 				7E9D9C02206B963000DE9FA7 /* Info.plist */,
 				7E9D9C03206B963000DE9FA7 /* main.m */,
+			);
+			path = HorizonScrollViewRefresh;
+			sourceTree = "<group>";
+		};
+		7E9D9C0A206B964500DE9FA7 /* HorizonScrollViewRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				7E9D9C0B206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.h */,
+				7E9D9C0C206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.m */,
+				7E3B5ED4207B0E980041A375 /* RightHeader */,
+				7E3B5ED3207B0E880041A375 /* LeftHeader */,
 			);
 			path = HorizonScrollViewRefresh;
 			sourceTree = "<group>";
@@ -142,9 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3B5EDA207B0EC00041A375 /* CommonHeaderView.m in Sources */,
 				7E9D9BF9206B963000DE9FA7 /* ViewController.m in Sources */,
+				7E3B5ED9207B0EC00041A375 /* LeftHeaderView.m in Sources */,
 				7E9D9C04206B963000DE9FA7 /* main.m in Sources */,
+				7E3B5EDD207B12370041A375 /* RightHeaderView.m in Sources */,
 				7E9D9BF6206B963000DE9FA7 /* AppDelegate.m in Sources */,
+				7E9D9C0D206B9C7700DE9FA7 /* UIScrollView+HorizonRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
